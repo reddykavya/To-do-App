@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+}
+.marked{
+    text-decoration: line-through;
+    color: #0d75ec;
+}
+.container{
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/arvrbg.png");
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    background-position: center;
+}
+.title{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin: 30px 0;
+    color: rgb(17, 17, 85);
+    
+}
+.todo-list{
+    width: 450px;
+    padding: 20px;
+    box-shadow: 0 10px 40px rgb(229, 229, 234);
+    border-radius: 5px;
+    background-color: #fff;
+}
+.create-task-heading {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(17, 17, 85);
+}
+.create-task-heading1{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(17, 17, 85);
+    padding-top: 14px;
+}
+.list-heading{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    gap: 20px;
+}
+.todo-user-input{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    outline: none;
+}
+.todo-user-input:focus{
+    outline: none;
+    border-color: #0d75ec;
+}
+.list-button{
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(8, 6, 133);
+    outline: none;
+    font-size: 16px;
+    cursor: pointer;
+    color: #fff;
+}
+#addedtasklist{
+    align-items: center;
+    margin-bottom: 9px;
+    margin-top: 9px;    
+    width: 97%;
+}
+.task{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #c5e1e6;
+    height: 30px;
+    margin-bottom: 9px;
+    padding: 5px 10px;
+    margin-right: 45px;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #939697;
+
+}
+.delete{
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: #d11a2a;
+}
+.edit{
+    outline: none;
+    padding-right: 3px;
+    border-radius: 5px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: #3ff077;
+    width:20px;
+    height: 20px;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #e2dfdf;
+    text-align: left;
+    padding: 8px;
+    background-color: #c5e1e6;
+  }
+ 
+  

@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -21,28 +20,22 @@
         <h1 class="create-task-heading">
             Create Task
         </h1>
-        <div class="list-heading">
-                <input type="text" class="todo-user-input" placeholder="What needs to be add?" id="addtaskinput" />
-                <input type="hidden" id="saveindex">
-       
-              <button type="button"  class="list-button" id="addtaskbtn">
-                Add Task
-              </button>
-              <button type="button" class="list-button" id="savetaskbtn" style="display: none;">
-                Save Task
-              </button>
-             
-            </div>
+        <div class="list-heading"  id="inputContainer">
+                <input type="text" class="todo-user-input" placeholder="What needs to be add?" id="todoInputname" />
+                <button type="button" id="add"  class="list-button">
+                   Add Task
+                </button>
+
+        </div>
             <h1 class="create-task-heading1">
                 My Tasks
             </h1>
-
             <div id="task">
-              <table  id="addedtasklist">
+              <table  id="todolist">
                 
               </table>
             </div>
-    
+
     </div>
 </div>
   <script src="todo.js"></script>
